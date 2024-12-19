@@ -1,0 +1,344 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+#section-1 {
+    background-color: #c40c0c;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: #f79308; 
+    color: #F3FEB8; 
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease;
+    
+  }
+
+  .konten-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .konten-1{
+    justify-content: center;
+  }
+  
+  .pengantin {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+  }
+
+#section-1 h1{
+  font-family: "Sacramento", system-ui;
+  font-size: 3rem;
+  color:#f79308;
+}  
+
+#section-2{
+    background-color: thistle;
+    height: 100vh;
+    display: none;
+    background-image: url(../../../Projek-UndanganDigital-Aufa/rumah-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: wheat;
+}
+
+#section-3{
+    background-color: #c40c0c;
+    height: 100vh;
+    display: none;
+
+}
+
+.ikon{
+    width: 100px;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  #couple h1{
+    font-family: "Sacramento", system-ui;
+    color: #f79308;
+    font-size: 3rem;
+  }
+
+#section-4{
+    background-color:blueviolet;
+    height: 100vh;
+    display: none;
+    background-image: url(../img/rumah-gadang.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #000;
+    
+  }
+  
+  .countdown-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .countdown-box {
+      background: #fff;
+      padding: 4px;
+      border-radius: 8px;
+      margin: 5px;
+      background-color: #F3FEB8;
+  }
+  
+  .countdown-box p {
+      font-size: 10px;
+      font-weight: 100;
+      margin: 10px 0px;
+      color:#f79308;
+  }
+  
+  .countdown-box p:first-child {
+      font-size: 30px;
+      font-weight: 100;
+      color: #B31217;
+  }
+
+
+#section-5{
+    background-color: #F3FEB8;
+    height: 100vh;
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+#section-6{
+    background-color: #c40c0c;
+    height: 100vh;
+    display: none;
+}
+
+.story {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+  
+  }
+  
+  .story h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .story p {
+    margin-bottom: 20px;
+  }
+  
+  .story img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+#section-7{
+    background-color: #F3FEB8;
+    height: 100vh;
+    display: none;
+}
+
+
+
+.pos-tl{
+    position: absolute;
+    top: -200px ;
+    left: -200px;
+
+}
+
+.pos-tr{
+    position: absolute;
+    top: -200px ;
+    right: -200px;
+}
+
+.pos-bl{
+    position: absolute;
+    bottom: -200px ;
+    left: -200px;
+}
+
+.pos-br{
+    position: absolute;
+    bottom: -200px ;
+    right: -200px;
+}
+
+.konten{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    padding-top: 30vh;
+}
+
+#kotak-musik{
+    display: none;
+}
+
+#tombol-musik{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: antiquewhite;
+    border-radius: 100%;
+    padding: 10px;
+
+
+}
+
+#tombol-musik img{
+    width: 50px;
+    height: 50px;
+}
+
+#rsvp-form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #c40c0c;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #rsvp-form label {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  #rsvp-form input, #rsvp-form select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #rsvp-form button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-cursor: pointer;
+  }
+  
+  #rsvp-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #rsvp-form button[type="reset"] {
+    width: 100%;
+    height: 40px;
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-cursor: pointer;
+  }
+  
+  #rsvp-form button[type="reset"]:hover {
+    background-color: #aaa;
+  }
+  
+  #confirmation-message {
+    color: #00698f;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  #section-8{
+    background-color: #c40c0c;
+    height: 50vh;
+    display: none;
+  }
+
+  #section-8 img{
+    width: 300px;
+  }
+
+  #section-9{
+    background-color: #F3FEB8;
+    height: 50vh;
+    display: none;
+  }
+
+  #topnav {
+    overflow: hidden;
+    background-color: #652626;
+    position: fixed;
+    bottom: 2vh;
+    border-radius: 20px;
+    left: 50%;
+    z-index: 100;
+    transform: translateX(-50%);
+    display: none;
+  }
+  
+  #topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
